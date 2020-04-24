@@ -1,2 +1,2 @@
-##
-http://localhost:8888/notebooks/Untitled3.ipynb?kernel_name=python3
+python3 -m nbconvert --execute --inplace *.ipynb **/*.ipynb
+ --ExecutePreprocessor.timeout=-1
